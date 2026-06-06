@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans          &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans          &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans          &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp TAB        &trans                             &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp CAPSLOCK   &trans                             &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp RSHIFT     &trans                             &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&kp LC(LCTRL)  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
             >;
         };
 
